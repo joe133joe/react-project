@@ -1,0 +1,67 @@
+@media (max-width: 1176px) {
+  .about-section {
+		height: auto;
+		padding: 60px 20px;
+		margin: 0;
+	}
+
+  .header-title {
+		text-align: center;
+		font-size: 40px;
+	}
+
+	.info {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.personal-information {
+		text-align: start;
+		margin-bottom: 2rem;
+	}
+
+	.info-1 {
+		font-size: 20px;
+	}
+
+	.info-2 {
+		font-size: 20px;
+	}
+
+	.about-info {
+		gap: 0;
+	}
+
+	.about-info p {
+		margin-bottom: 1.5rem;
+	}
+
+	.box-about-info {
+		display: flex;
+		justify-content: flex-start;
+		gap: 10px;
+		margin-top: -30px;
+	}
+
+	.boxes {
+		grid-template-columns: repeat(2, 1fr);
+		margin-bottom: 2rem;
+	}
+
+	hr {
+		display: none;
+	}
+
+	.more-coming {
+		margin-top: 1rem;
+	}
+}
+
+
+@media (max-width: 500px) {
+  .boxes {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+

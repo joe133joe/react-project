@@ -1,0 +1,40 @@
+.card::after {
+  content: "Web Develoment";
+  color: white;
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 80%;
+  z-index: 20;
+  transition: 0.3s ease;
+}
+
+.card:hover::after {
+  opacity: 1;
+  top: 45%;
+}
+
+/* resposive */
+
+@media (max-width: 900px) {
+  .projects-page {
+		padding: 60px 20px;
+    height: auto;
+  }
+
+  .header-title {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .imgs-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .imgs-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
