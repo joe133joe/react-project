@@ -9,11 +9,11 @@ import Contact from "./pages/Contact";
 import Preloader from "./components/Preloader";
 
 function App() {
-  const [loading, setloading] = useState(true);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => {
-      setloading(false);
-    }, 1500);
+      setLoading(false);
+    }, 5000);
   });
   return (
     <div className="App w-full h-screen">

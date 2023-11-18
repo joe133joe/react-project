@@ -48,6 +48,11 @@ textarea:focus {
   background-color: #7011dd;
 }
 
+.layer {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
